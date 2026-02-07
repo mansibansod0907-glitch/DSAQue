@@ -13,7 +13,7 @@ public class Anagram {
         System.out.print("Enter second string: ");
         String str2 = sc.nextLine().replaceAll("\\s+", "").toLowerCase();
 
-        if (isAnagram(str1, str2)) {
+        if (Anagram(str1, str2)) {
             System.out.println("The strings are anagrams.");
         } else {
             System.out.println("The strings are NOT anagrams.");
@@ -22,7 +22,7 @@ public class Anagram {
         sc.close();
     }
 
-public static boolean isAnagram(String s1, String s2) {
+public static boolean Anagram(String s1, String s2) {
     if (s1.length() != s2.length()) {
         return false;
     }

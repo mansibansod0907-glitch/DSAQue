@@ -14,6 +14,7 @@ public class Sqaure {
                 System.out.print("* ");
             }
             System.out.println();
+            
         }
 
         sc.close();
